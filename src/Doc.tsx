@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const apiUrl = "http://pop-api.eu-west-3.elasticbeanstalk.com/";
+const apiUrl = "https://rap2hpoutre.github.io/pop-noel/";
 const popUrl = "http://pop.culture.gouv.fr/notice/";
 const imgUrl = "https://s3.eu-west-3.amazonaws.com/pop-phototeque/";
 
@@ -22,7 +22,7 @@ interface DocData {
 class Doc extends Component<Props> {
   state: State = {};
   async componentDidMount() {
-    const response = await fetch(`${apiUrl}${this.props.uri}`);
+    const response = await fetch(`${apiUrl}${this.props.uri}.json`);
     const json = await response.json();
     this.setState({ data: json });
   }
