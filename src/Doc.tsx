@@ -22,7 +22,7 @@ interface DocData {
 class Doc extends Component<Props> {
   state: State = {};
   async componentDidMount() {
-    const response = await fetch(`${apiUrl}${this.props.uri}.json`);
+    const response = await fetch(`${apiUrl}docs/${this.props.uri}.json`);
     const json = await response.json();
     this.setState({ data: json });
   }
