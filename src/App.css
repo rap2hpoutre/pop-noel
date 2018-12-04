@@ -8,14 +8,14 @@
   margin-bottom: 30px;
 }
 .App img.frame {
-  border-image: url("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png") 45
-    45 44 45 stretch stretch;
   margin: 30px auto;
   max-width: 300px;
   max-height: 300px;
   border-color: #f4be52;
   border-style: inset;
   border-width: 30px;
+  border-image: url("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png") 45
+    45 44 45 stretch stretch;
   display: block;
   height: auto;
   background-color: #ffe;
