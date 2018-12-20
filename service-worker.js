@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pop-noel/precache-manifest.d0a602b611ca58d8757bb3e434edba29.js"
+  "/pop-noel/precache-manifest.7c3f5f02830f5543b3f03fef97b95fb7.js"
 );
 
 workbox.clientsClaim();
