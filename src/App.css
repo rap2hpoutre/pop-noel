@@ -13,9 +13,10 @@
   max-height: 300px;
   border-color: #f4be52;
   border-style: inset;
-  border-width: 30px;
-  border-image: url("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png") 45
-    45 44 45 stretch stretch;
+  border-width: 20px;
+  border-image: url("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png") 43
+    43 42 43 stretch stretch;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   display: block;
   height: auto;
   background-color: #ffe;
